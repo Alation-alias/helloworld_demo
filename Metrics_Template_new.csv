@@ -1,0 +1,35 @@
+Article ID,template_name,key,1. Definition,1. Function,2. Business Function,2. Calculations,3. BTO,4. Sub-BTO,Business Domains,Franchise:Multipicker,Relevant Data,Owner:key,Owner:type,Approval Date,Compliance Object:type,Compliance Object:key,Interested person:type,Interested person:key,Steward:key,Steward:type,query:4.1 Split by Segment:sub,query:4.1 Split by Segment,query:4.2 Past DSL Queries:sub,query:4.2 Past DSL Queries,tags
+,AED,Sample for article extractor3,Total number 3,AED function3,AED BF3,24*7,Commercial US,Operations ,Customer Interactions,Immunology - Derm,adsVp.DSL_CAL_PLN_TRNS_FCT_CUR_QR_VW,manimala.varatharajan.praigs@alation.com,user,10/10/2019,article,GDSN,user,manimala.varatharajan.praigs@alation.com,manimala.varatharajan.praigs@alation.com,user,Title DSL1 AED,"/* Territory Level */
+
+select FRANCHISE,HIERARCHY_LEVEL,HIERARCHY_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD,
+SEGMENT_NAME,AVERAGE_CALLS_PER_DAY
+ from adsVp.DSL_CALL_PLAN_TRNS_FCT_HIST_VW
+where franchise=${Franchise Name|Pick the Franchise Name from the List|Help: Filter by Franchise|String}
+AND SEGMENT_NAME='OVERALL'
+AND HIERARCHY_LEVEL='TERRITORY'
+order by hierarchy_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD",Title DSL AED,"/* Territory Level */
+
+select FRANCHISE,HIERARCHY_LEVEL,HIERARCHY_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD,
+SEGMENT_NAME,AVERAGE_CALLS_PER_DAY
+ from adsVp.DSL_CALL_PLAN_TRNS_FCT_HIST_VW
+where franchise=${Franchise Name|Pick the Franchise Name from the List|Help: Filter by Franchise|String}
+AND SEGMENT_NAME='OVERALL'
+AND HIERARCHY_LEVEL='TERRITORY'
+order by hierarchy_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD",Looker Dashboard
+,AED,Sample for article extractor4,Total number 4,AED function4,AED BF4,24*8,Commercial US,Operations ,Customer Interactions,Immunology - Derm,adsVp.DSL_CAL_PLN_TRNS_FCT_CUR_QR_VW,thiagaraj.s.pragis@alation.com,user,10/11/2019,article,GDSN,user,thiagaraj.s.pragis@alation.com,thiagaraj.s.pragis@alation.com,user,Title DSL1 AED,"/* Territory Level */
+
+select FRANCHISE,HIERARCHY_LEVEL,HIERARCHY_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD,
+SEGMENT_NAME,AVERAGE_CALLS_PER_DAY
+ from adsVp.DSL_CALL_PLAN_TRNS_FCT_HIST_VW
+where franchise=${Franchise Name|Pick the Franchise Name from the List|Help: Filter by Franchise|String}
+AND SEGMENT_NAME='OVERALL'
+AND HIERARCHY_LEVEL='TERRITORY'
+order by hierarchy_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD",Title DSL AED,"/* Territory Level */
+
+select FRANCHISE,HIERARCHY_LEVEL,HIERARCHY_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD,
+SEGMENT_NAME,AVERAGE_CALLS_PER_DAY
+ from adsVp.DSL_CALL_PLAN_TRNS_FCT_HIST_VW
+where franchise=${Franchise Name|Pick the Franchise Name from the List|Help: Filter by Franchise|String}
+AND SEGMENT_NAME='OVERALL'
+AND HIERARCHY_LEVEL='TERRITORY'
+order by hierarchy_CODE,CAMPAIGN_YEAR,CAMPAIGN_PERIOD",Looker Dashboard
