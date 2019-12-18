@@ -1,0 +1,12 @@
+key,object_type,column_type
+SAPBW1.SAML2_RES_ARTFCT,table,
+SAPBW1.SAML2_RES_ARTFCT.IDP_KEY,attribute,VARBINARY
+SAPBW1.SAML2_RES_ARTFCT.NOTBEFORE,attribute,DECIMAL
+SAPBW1.SAML2_RES_ARTFCT.NOTONORAFTER,attribute,DECIMAL
+SAPBW1.SAML2_RES_ARTFCT.RESPONSE,attribute,BLOB
+"_SYS_BIC1.\""sap.hana.security.base.persistence/persistenceEncryptionServiceStatus/IS_LATEST_ROOT_KEY_VERSION/hier\"".QUERY_NODE_NAME",attribute,VARCHAR
+"_SYS_BIC1.\""sap.hana.security.base.persistence/persistenceEncryptionServiceStatus/IS_LATEST_ROOT_KEY_VERSION/hier\"".RESULT_NODE",attribute,VARCHAR
+"_SYS_BIC1.\""sap.hana.security.base.persistence/persistenceEncryptionServiceStatus/IS_LATEST_ROOT_KEY_VERSION/hier\"".RESULT_NODE_NAME",attribute,VARCHAR
+"THIRD_P1.\""beam.procedures.sdi::BT_SCM_APO_production_forecast_step1_Source_CV\""./BIC/ZBGREGION",attribute,VARCHAR
+"THIRD_P1.\""beam.procedures.sdi::BT_SCM_APO_production_forecast_step1_Source_CV\""./BIC/ZBG_CUBE",attribute,VARCHAR
+"THIRD_P2.\""beam.procedures.sdi::BT_SCM_APO_production_forecast_step1_Source_CV\""./BIC/ZBG_DQTY",attribute,DECIMAL
